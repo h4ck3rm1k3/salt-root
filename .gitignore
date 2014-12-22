@@ -1,27 +1,68 @@
-/var/cache/salt/minion/file_lists/roots/base.p
-/var/cache/salt/minion/files/base/stalinizer.slsc
-/var/cache/salt/minion/files/base/top.sls
-/var/cache/salt/minion/highstate.cache.p
-/var/cache/salt/minion/module_refresh
-/var/cache/salt/minion/pkg_refresh
-/var/cache/salt/minion/roots/hash/base/stalinizer.sls.hash.md5
-/var/cache/salt/minion/roots/hash/base/top.sls.hash.md5
-/var/cache/salt/minion/roots/mtime_map
-/var/log/salt/minion
-/srv/salt/stalinizer.sls~
-/etc/salt/#master#
-/etc/salt/cloud.providers.template~
-/etc/#cloud#
-/etc/#cloud.profile#
-/etc/.#cloud
+/var/*
+*~
+*#*#
+*.#*
+
+# passwords in here, see the template
 /etc/mdupont.pem
-/etc/salt/cloud.maps.d/cloud.map
-/etc/salt/cloud.maps.d/saltify.map
 /etc/salt/cloud.providers
 /etc/salt/cloud.providers~
 /etc/salt/cloud.profiles.d/debian.profiles
-/etc/salt/master~
-/var/cache/salt/cloud/index.p
-/var/cache/salt/minion/files/base/stalinizer.sls
-/var/log/salt/master
-/var/run/salt-api.pid
+*~
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+>>>>>>> 279f066628079691154b0b8b25757efcb344a9da
