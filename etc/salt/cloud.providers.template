@@ -1,0 +1,14 @@
+# This file may be used in addition to, or instead of the files in the
+# cloud.providers.d/ directory. The format for this file, and all files in that
+# directory is identical.
+
+
+my-aws-default:
+   provider: ec2
+   id: *********************
+   key: '***************************'
+   keyname: mdupont
+   securitygroup: default
+   private_key: /mnt/newdrive2/home/mdupont/experiments/salt/root/etc/mdupont.pem
+
+

@@ -1,0 +1,22 @@
+debian_east_aws:
+  provider: my-aws-default
+  image: ami-646ee40c
+  size: t1.micro
+  location: us-east-1
+
+# works
+debian_east_aws2:
+  provider: my-aws-default
+  image: ami-0258e26a
+  size: t1.micro
+  location: us-east-1
+
+# works
+debian_east_aws3:
+  provider: my-aws-default
+  image: ami-2058e248
+  size: t1.micro
+  location: us-east-1
+
+
+
